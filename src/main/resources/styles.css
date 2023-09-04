@@ -1,0 +1,125 @@
+.root {
+-fx-font-size: 14pt; // Ändert Standardschriftgröße
+
+
+}
+
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+.menu-bar .container {
+    -fx-background-color: linear-gradient(to bottom, #B0C4DE, #F8F8FF);
+    -fx-background-insets: 0;
+}
+
+.menu-bar .menu-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.menu-bar .menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #0096c9);
+}
+
+.menu-bar .menu-button .label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: black;
+}
+
+.menu-bar .menu-button:focused .label {
+    -fx-text-fill: black;
+}
+
+
+.combo-box {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+
+    -fx-border-color: #DDDDDD;
+    -fx-border-width: 1;
+   -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+
+
+.combo-box .list-cell {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+    -fx-text-fill: #333333;
+    -fx-padding: 8 16;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #0096c9;
+        -fx-cursor: hand;
+}
+
+.combo-box .list-cell:pressed {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #FFFFFF);
+    -fx-text-fill: #666666;
+}
+
+
+
+.button-container {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.plastic-button {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+    -fx-background-radius: 50%;
+    -fx-background-insets: 0, 0 0 2 0;
+    -fx-border-color: #DDDDDD;
+    -fx-border-width: 1;
+    -fx-border-radius: 50%;
+    -fx-text-fill: #333333;
+    -fx-font-size: 19;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+
+.plastic-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #0096c9);
+    -fx-border-color: #CCCCCC;
+    -fx-cursor: hand;
+}
+
+.plastic-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #0096c9);
+    -fx-border-color: #CCCCCC;
+    -fx-text-fill: #666666;
+    -fx-effect: none;
+}
+
+.plastic-buttonSave {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+    -fx-background-insets: 0, 0 0 2 0;
+    -fx-border-color: #DDDDDD;
+    -fx-border-width: 1;
+    -fx-text-fill: #333333;
+    -fx-font-size: 19;
+    -fx-padding: 8 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+
+.plastic-buttonSave:hover {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #0096c9);
+    -fx-border-color: #CCCCCC;
+    -fx-cursor: hand;
+}
+
+.plastic-buttonSave:pressed {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #FFFFFF);
+    -fx-border-color: #CCCCCC;
+    -fx-text-fill: #666666;
+    -fx-effect: none;
+}
+.plastic-buttonSave:focused {
+    -fx-background-color: linear-gradient(to bottom, #F1F1F1, #0096c9);
+    -fx-border-color: #CCCCCC;
+    -fx-cursor: hand;
+}
+
+
